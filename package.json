@@ -1,0 +1,16 @@
+{
+  "name": "3_typescript_express_mongodb",
+  "version": "1.0.0",
+  "description": "Implementation of REST API in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "express",
+    "mongoDB"
+  ],
+  "author": "Tarun Singh",
+  "license": "ISC"
+}
