@@ -33,8 +33,9 @@ class App {
         mongoose.Promise = global.Promise;
         mongoose.connect( MONGO_URI ,{
             useNewUrlParser: true,
+        },(err) => {
+            console.log(err);
         })
-        .then(resp => console.log(resp))
     }
 }
 export default new App().app;

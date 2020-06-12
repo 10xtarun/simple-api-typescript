@@ -10,6 +10,6 @@ export class Controller {
     }
 
     public routes() {
-        this.app.route('/').get(this.apiService.getAllBookmarks);
+        this.app.route('/bookmarks').get(this.apiService.getAllBookmarks);
     }
 }
