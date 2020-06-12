@@ -15,5 +15,11 @@ ___
 * Bookmark Link
 ___
 
+## Flow of the project
+### Set up the TypeScript
+1. $"tsc --init"
+
+
 # References
 [QuickTypeScriptBasics] ("https://www.freecodecamp.org/news/learn-typescript-in-5-minutes-13eda868daeb/")
+[ProjectReference] ("https://dev.to/nyagarcia/pokeapi-rest-in-nodejs-with-express-typescript-mongodb-and-docker-part-1-5f8g")
