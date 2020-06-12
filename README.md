@@ -16,8 +16,8 @@ ___
 ___
 
 ## Flow of the project
-### Set up the TypeScript
-1. $"tsc --init"
+1. Set up the TypeScript
+2. Set up the basic express app
 
 
 # References
