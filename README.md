@@ -16,6 +16,20 @@ ___
 ___
 
 ## Flow of the project
+### Project Configuration
+> dependencies "body-parser cors express mongoose"
+
+> dev dependencies "@types/body-parser @types/cors @types/express @types/mongoose @types/node nodemon ts-node typescript"
+
+### Basic server set up
+> "src/app.ts"
+
+Call express() in the constructor and set the bodyParser and cors, export instantiated app
+
+> "src/server.ts"
+
+Call the app at PORT number
+
 1. Set up the TypeScript
 2. Set up the basic express app
 
