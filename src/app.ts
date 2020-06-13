@@ -16,6 +16,7 @@ class App {
     constructor(){
         this.app = express();
         this.setConfig();
+        this.setMongoConfig();
 
         //instantiate the controller wrt this app
         this.apiController = new Controller(this.app);
@@ -31,11 +32,11 @@ class App {
     //method to connect with MongoDB 
     private setMongoConfig(){
         mongoose.Promise = global.Promise;
-        mongoose.connect( MONGO_URI ,{
+        mongoose.connect("mongodb://localhost:27017/Bookmark", {
             useNewUrlParser: true,
-        },(err) => {
-            console.log(err);
-        })
+            useUnifiedTopology: true,
+        });
     }
+
 }
 export default new App().app;

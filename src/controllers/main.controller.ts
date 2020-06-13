@@ -11,5 +11,6 @@ export class Controller {
 
     public routes() {
         this.app.route('/bookmarks').get(this.apiService.getAllBookmarks);
+        this.app.route('/bookmarks').post(this.apiService.saveBookmark);
     }
 }
